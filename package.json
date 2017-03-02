@@ -1,0 +1,44 @@
+{
+  "name": "performance-polyfill",
+  "description": "Polyfill for performance API, which is not supported in some browsers (Safari)",
+  "version": "0.0.1",
+  "homepage": "https://github.com/blackswanny/performance-polyfill",
+  "author": {
+    "name": "Lebedev Konstantin",
+    "email": "ibnrubaxa@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Oleg Gomozov",
+      "email": "blackswanny@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackswanny/performance-polyfill"
+  },
+  "bugs": {
+    "url": "https://github.com/blackswanny/performance-polyfill/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "xmldom": "~0.1.16"
+  },
+  "keywords": [
+    "performance, polyfill"
+  ],
+  "_npmUser": {
+    "name": "blackswanny",
+    "email": "blackswanny@gmail.com"
+  },
+  "directories": {}
+}
