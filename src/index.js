@@ -2,10 +2,10 @@
  * User Timing polyfill (http://www.w3.org/TR/user-timing/)
  * @author RubaXa <trash@rubaxa.org>
  */
-(function (window){
+(function (scope){
 	var
 		  startOffset = Date.now ? Date.now() : +(new Date)
-		, performance = window.performance || {}
+		, performance = scope.performance || {}
 
 		, _entries = []
 		, _marksIndex = {}
@@ -97,9 +97,9 @@
 
 
 	// exports
-	window.performance = performance;
+	scope.performance = performance;
 
 	if( typeof define === 'function' && (define.amd || define.ajs) ){
 		define('performance', [], function (){ return performance });
 	}
-})(window);
+})(self);
