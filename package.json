@@ -1,7 +1,7 @@
 {
   "name": "performance-polyfill",
   "description": "Polyfill for performance API, which is not supported in some browsers (Safari)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/blackswanny/performance-polyfill",
   "author": {
     "name": "Lebedev Konstantin",
